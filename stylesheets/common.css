@@ -76,6 +76,7 @@
 		font-weight: bold;
 		letter-spacing:-0.03em;
 		color: #b1b3ab;
+		background: url(../images/navigation_right.gif) right top no-repeat;
 	}
 	#navigation li a:hover{
 		color: #82865b;
