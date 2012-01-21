@@ -6,7 +6,7 @@
 	body{
 		font: 62.5%/2.2em Arial, Tahoma, Verdana,Helvetica, sans-serif;
 		color: #4b4942;
-		background: #000000 url(../images/bg.jpg) ;
+		background: #404639 url(../images/bg_patterns.gif);
 	}
 	a{text-decoration: none;color: #5599a7;}
 	a:hover{color: #bb800f;}
@@ -22,14 +22,14 @@
 		margin: -10px auto 0 auto;
 		height: 10px;
 		font-size:0.1em;
-		background: url(../images/container_top1.png) left bottom no-repeat;
+		background:url(../images/container_top.png) left bottom no-repeat;
 	}
 	* html #containertop{behavior: url(stylesheets/iepngfix.htc);} /* to correct transparent png in IE */
 	/* container */
 	#container{
 		width: 902px;
 		margin: 44px auto 0 auto;
-		background: # url(../images/bg_container1.png);
+		background: #171A0F url(../images/bg_container.png);
 		padding-bottom:10px;
 	}
 
@@ -37,58 +37,23 @@
 	/* Logo and Site Title */
 	h1{
 		font-size: 2.4em;
-		font-family: 'BatmanForeverAlternate';
-
-	}
-	h3{
-		font-size: 1.4em;
+		text-transform: uppercase;
 	}
 	h1 a,h1 a:hover{
 		display: block;
-		width: 800px;
-		height: 20px;
-		padding-top:0px;
-		margin-left:-30px;
+		width: 300px;
+		height: 30px;
+		padding-top:10px;
+		margin-left:18px;
+		background: url(../images/logo.gif) 0 0 no-repeat;
 		padding-left:52px;
-		color: #FFFFFF;
+		color: #7b8266;
 	}
 
 /* =TOP NAVIGATION and SEARCH */
 	/* top navigation */
-	
-	#site_content
-	{ width: 858px;
-	  overflow: hidden;
-	  margin: 0 auto 0 auto;
-	  padding: 50px 20px 0px 20px;
-	  background-image:url('../images/content.png'); repeat-y;
-	/* border: 15px #FFF;} */
-	}
-	
-	.sidebar
-	{ float: right;
-	  width: 190px;
-	  padding: 0 15px 20px 15px;}
-	
-	.sidebar ul
-	{ width: 178px; 
-	  padding: 4px 0 0 0; 
-	  margin: 4px 0 30px 0;}
-	
-	.sidebar li
-	{ list-style: none; 
-	  padding: 0 0 7px 0; }
-	
-	.sidebar li a, .sidebar li a:hover
-	{ padding: 0 0 0 35px;
-	  display: block;
-	  background: transparent url(link.png) no-repeat left center;} 
-	
-	.sidebar li a.selected
-	{ color: #444;} 
-	
 	#navigation_wrapper{
-		background: url(../images/content.png) 0 0 repeat-x;
+		background: #363B28 url(../images/nav_bg.gif) 0 0 repeat-x;
 		height: 37px;
 		width: 861px;
 		margin: 10px auto 20px auto;
@@ -97,37 +62,25 @@
 		float: left;
 		padding-left:7px;
 		height: 37px;
-		background: url(../images/navigation_left1.gif) left top no-repeat;
+		background: url(../images/navigation_left.gif) left top no-repeat;
 	}
 	#navigation li{
 		float: left;
 	}
-	
-	.dropmenudiv_a{
-	position:absolute;
-	top: 100;
-	left: 100;
-	border-bottom-width: 0;
-	font:normal 12px Arial;
-	line-height:18px;
-	z-index:100;
-	background-color: white;
-	width: 200px;
-	visibility: hidden;
-	}
-
 	#navigation li a{
-		padding: 7px 60px 0px 59px;
+		padding: 7px 109px 0 10px;
 		height: 30px;
 		float: left;
 		font-family: "Bookman Old Style";
-		font-size: 1.35em;
+		font-size: 1.45em;
 		font-weight: bold;
 		letter-spacing:-0.03em;
-		color: #222222;
+		color: #b1b3ab;
+		background: url(../images/navigation_right.gif) right top no-repeat;
 	}
 	#navigation li a:hover{
-		color: #b1b3ab;
+		color: #82865b;
+		background: #394030 url(../images/nav_hover_bg.gif) 0 0 repeat-x;
 	}
 	/* search */
 	#search_wrapper{
@@ -167,45 +120,34 @@
 
 /* =BANNER */
 	#banner_wrapper{
-		width: 861px;
+		width: 874px;
 		overflow: hidden;
-		padding:30px 0px 0px 20px;
+		padding:30px 0 0 28px;
 	}
-	.banner img{border: 2px solid #000000;}
 	.banner{
 		float: left;
-		width: 251px;
-		background: url(../images/content.png) left repeat-y;
+		width: 245px;
+		float: left;
+		background: #353C2C url(../images/banner_bg.gif) left repeat-y;
 		margin-right:54px;
 		padding-bottom:6px;
 		position: relative;
 	}
-	.content{
-		float: left;
-		width: 245px;
-		float: left;
-		background: url(../images/banner_bg.gif) left repeat-y;
-		margin-right:4px;
-		padding-bottom:6px;
-		position: relative;
-	}
-	.image_wrapper{text-align: center; color:}
-	.banner img{border: 2px solid #000000;}
-	.banner_last{margin-right:0px;}
+	.image_wrapper{text-align: center;}
+	.banner img{border: 3px solid #181B0F;}
+	.banner_last{margin-right:0;}
 	.banner h2{
 		height: 38px;
-		font-family: "Bookman Old Style";
-		font-size: 1.65em;
-		font-weight: bold;
-		letter-spacing:-0.03em;
-		color: #222222;
-		padding: 15px 0 0 0px;
-		text-align: center;
+		background: url(../images/banner_top.gif) left no-repeat;
+		font:1.9em "Lucida Grande", "Trebuchet MS", Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+		color: #7c7c58;
+		padding: 15px 0 0 17px;
 	}
 	/* for the rounded bottom */
 	.image_wrapper span{
 		position: absolute;
-		width: 261px;
+		width: 245px;
 		height: 6px;
 		font-size:.1em;
 		left:0;bottom:-1px;
@@ -291,23 +233,22 @@
 	
 /* =FOOTER */
 	#footer_wrapper{
-		width: 861px;
+		width: 871px;
 		padding-left:31px;
 		padding-bottom:25px;
-		margin: 10px auto 20px auto ;
+		margin: 0 auto;
 		font-size: 1.2em;
-		background: url(../images/footer_left1.png) 0 0 no-repeat;
+		background: url(../images/footer_left.png) 0 0 no-repeat;
 	}
 	#footer{
 		position: relative;
-		width: 861px;
-		height: 37px;
-		margin-left: -15px;
-		background: url(../images/content.png) 0 bottom repeat-x;
+		width: 840px;
+		height: 67px;
+		background: #313B24 url(../images/footer_bg.png) 0 bottom repeat-x;
 	}
 	#footer .logo{
-		padding: 8px 0 0 25px;
-		width: 400px;
+		padding: 34px 0 0 3px;
+		width: 300px;
 		float: left;
 		
 	}
@@ -317,12 +258,12 @@
 		right:-31px;top:0;
 		width: 31px;
 		height: 67px;
-		background: url(../images/footer_right1.png) right bottom no-repeat;
+		background: url(../images/footer_right.png) right bottom no-repeat;
 	}
 	* html #footer .logo span, * html #footer_wrapper{behavior: url(stylesheets/iepngfix.htc);}
 	#footer ul{
-		padding-top: 8px;
-		padding-right: 25px;
+		padding-top: 34px;
+		padding-right: 5px;
 		float: right;
 	}
 	#footer ul li{
@@ -330,11 +271,11 @@
 		padding-left:10px;
 	}
 	#footer a{
-		color: #222222;
+		color: #7B8266;
 	}
 	#footer a:hover{
-		color: #b1b3ab;
+		color: #AFBB4F;
 		}
 	#footer li a:hover{
-		color: #b1b3ab;
+		color: #AFBB4F;
 	}

@@ -140,4 +140,3 @@ if (jQuery.browser.msie)
 	});
 
 
-
