@@ -6,11 +6,11 @@
 	body{
 		font: 62.5%/2.2em Arial, Tahoma, Verdana,Helvetica, sans-serif;
 		color: #4b4942;
-		background: #000000 url(../images/bg2.jpg) ;
+		background: #000000 url(../images/bg.jpg) ;
 		background-attachment:fixed;
 	}
-	a{text-decoration: none;color: #5599a7;}
-	a:hover{color: #bb800f;}
+	a{text-decoration: none;color: #222222;}
+	a:hover{color: #FFFFFF;}
 	.hide,hr{display: none;}
 	strong{font-weight: bold;}
 	
@@ -52,7 +52,10 @@
 		padding-left:52px;
 		color: #FFFFFF;
 	}
-
+	hh{
+		font-size: 1.1em;
+		font-family: 'Arial Black';
+	}
 /* =TOP NAVIGATION and SEARCH */
 	/* top navigation */
 	
@@ -135,12 +138,6 @@
 		margin: 0 auto;
 	}
 
-	#slides{
-		width:860px;
-		position: relative;
-		margin: 0 auto;
-	}
-
 	/* frame: the small rounded image in the corner picture (top,right,bottom,left) */
 	#frame_image_top,#frame_image_bottom{
 		position: absolute;
@@ -159,7 +156,7 @@
 	#main_image1{
 			width:861px;
 			position: relative;
-			margin: 57px auto;
+			margin: 57px auto 0 auto ;
 			
 	}
 	.banner img{border: 2px solid #000000;}
@@ -210,12 +207,14 @@
 		background: url(../images/content.png) bottom repeat-x;
 		}
 	#servicescontent{
-		width: 750px;
-		margin: 0 10px ;
-		font-family: "Broadway", "Trebuchet MS", Arial, Helvetica, sans-serif;
+		width: 500px;
+		margin: 0 10px -10px 30px;
+		text-align:justify;
+		font-family: "Monotype Corsiva", "Trebuchet MS", Arial, Helvetica, sans-serif;
+		
 		letter-spacing:0.04em;
-		color: #222222;
-		font-size:1.1em;
+		color: #FFFFFF;
+		font-size:1.9em;
 		padding: 36px 0 20px 280px;
 		
 	}
@@ -286,18 +285,19 @@
 /* =SERVICES1 */
 	#services1{
 		width: 858px;
-		margin:0 auto;
+		margin:20px auto 0 auto;
 		position: relative;
 		background: url(../images/content.png) bottom repeat-x;
 		}
 	#servicescontent1{
 		width: 750px;
 		margin: 0 10px ;
-		font-family: "Broadway", "Trebuchet MS", Arial, Helvetica, sans-serif;
+		text-align:justify;
+		font-family: "Arial", "Trebuchet MS", Arial, Helvetica, sans-serif;
 		letter-spacing:0.04em;
-		color: #222222;
-		font-size:1.1em;
-		padding: 40px 0 20px 280px;
+		color: #000000;
+		font-size:1.9em;
+		padding: 15px 0 20px 48px;
 		
 	}
 	/* sevices header */
@@ -340,7 +340,7 @@
 		width: 287px;
 		height: 398px;
 		margin-bottom:52px;
-		background: url(../images/aboutus_img.jpg) left top no-repeat;
+		background: url(../images/aboutus_img1.jpg) left top no-repeat;
 	}
 	/* list of services */
 	.serviceslist1{
@@ -367,7 +367,7 @@
 /* =FOOTER */
 	#footer_wrapper{
 		width: 861px;
-		padding-left:31px;
+		padding-left:30px;
 		padding-bottom:25px;
 		margin: 10px auto 20px auto ;
 		font-size: 1.2em;
@@ -413,6 +413,37 @@
 	#footer li a:hover{
 		color: #FFFFFF;
 	}
+
+/* js-disabled class - set image sizes so they all fit in the viewer */
+
+.js-disabled img { width:100px; height:100px; display:block; float:left; margin:30px 0 0; }
+
+#outerContainer { width:542px; height:202px; margin:auto; position:relative; }
+
+#imageScroller { width:542px; height:202px; position:relative; background:#000000 url(../images/imageScrollerBG.png) no-repeat; }
+
+#viewer { width:522px; height:182px; overflow:hidden; margin:auto; position:relative; top:10px; }
+
+#imageScroller a:active, #imageScroller a:visited { color:#000000; }
+
+#imageScroller a img { border:0; }
+
+#controls { width:534px; height:47px; background:url(../images/controlsBG.png) no-repeat; position:absolute; top:4px; left:4px; z-index:10;	}
+
+#controls a { width:37px; height:35px; position:absolute; top:3px; }
+
+#controls a:active, #controls a:visited { color:#0d0d0d; }
+
+#title { color:#ffffff; font-family:arial; font-size:100%; font-weight:bold; width:100%; text-align:center; margin-top:10px; }
+
+#rtl { background:url(../images/rtl.png) no-repeat; left:100px; }
+
+#rtl:hover { background:url(../images/rtl_over.png) no-repeat; left:99px; }
+
+#ltr { background:url(../images/ltr.png) no-repeat; right:100px; }
+
+#ltr:hover { background:url(../images/ltr_over.png) no-repeat; }
+
 
 .main_gallery{
 	width: 858px;
