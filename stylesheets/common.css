@@ -135,6 +135,12 @@
 		margin: 0 auto;
 	}
 
+	#slides{
+		width:860px;
+		position: relative;
+		margin: 0 auto;
+	}
+
 	/* frame: the small rounded image in the corner picture (top,right,bottom,left) */
 	#frame_image_top,#frame_image_bottom{
 		position: absolute;

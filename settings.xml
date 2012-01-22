@@ -1,6 +1,6 @@
 <settings>
   <General_Properties>
-    <componentWidth value="850"/>
+    <componentWidth value="858"/>
     <componentHeight value="400"/>
     <assets value="images.xml"/>
     <preloader value="assets/preloaders/redsquares.swf"/>
