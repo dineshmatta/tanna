@@ -13,6 +13,7 @@ if(isset($_POST['Email_Address'])) {
 	
 	if(!isset($_POST['Full_Name']) ||
 		!isset($_POST['Email_Address']) ||
+		!isset($_POST['Project']) ||
 		!isset($_POST['Telephone_Number']) ||
 		!isset($_POST['Your_Message']) || 
 		!isset($_POST['AntiSpam'])		
@@ -22,6 +23,7 @@ if(isset($_POST['Email_Address'])) {
 	
 	$full_name = $_POST['Full_Name']; // required
 	$email_from = $_POST['Email_Address']; // required
+	$project_intrested = $_POST['Project']; // not required
 	$telephone = $_POST['Telephone_Number']; // not required
 	$comments = $_POST['Your_Message']; // required
 	$antispam = $_POST['AntiSpam']; // required
@@ -55,6 +57,7 @@ if(isset($_POST['Email_Address'])) {
 	
 	$email_message .= "Full Name: ".clean_string($full_name)."\r\n";
 	$email_message .= "Email: ".clean_string($email_from)."\r\n";
+	$email_message .= "Project Intrested: ".clean_string($project_intrested)."\r\n";
 	$email_message .= "Telephone: ".clean_string($telephone)."\r\n";
 	$email_message .= "Message: ".clean_string($comments)."\r\n";
 	
