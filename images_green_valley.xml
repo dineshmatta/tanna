@@ -1,0 +1,7 @@
+﻿<images>
+	<photo image="images/101.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
+	
+	<video media="video/green.flv" image="video/green.jpg" skin="assets/skins/videoSkin1.xml" backColor="0xff0000" backAlpha="1" autoplay="true"><![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></video>
+		
+</images>
