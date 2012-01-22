@@ -1,5 +1,4 @@
 <?php
-echo "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh";
 if(isset($_POST['Email_Address'])) {
 	
 	include 'freecontactformsettings.php';
