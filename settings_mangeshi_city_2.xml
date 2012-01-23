@@ -1,6 +1,6 @@
 <settings>
   <General_Properties>
-    <componentWidth value="850"/>
+    <componentWidth value="858"/>
     <componentHeight value="400"/>
     <assets value="images_mangeshi_city_2.xml"/>
     <preloader value="assets/preloaders/redsquares.swf"/>

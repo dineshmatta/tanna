@@ -1,48 +1,32 @@
 ﻿<images>
-	<photo image="images/101.jpg" url = "http://www.flashxml.net" target="_blank">
+	<photo image="images/general-gallery/gg1.jpg" url = "http://www.flashxml.net" target="_blank">
 	<![CDATA[<head>Hello</head>]]></photo>
 	
-	<video media="video/green.flv" image="video/green.jpg" skin="assets/skins/videoSkin1.xml" backColor="0xff0000" backAlpha="1" autoplay="true"><![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></video>
-	
-	<photo image="images/102.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></photo>
-	
-	<photo image="images/103.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></photo>
-	
-	<photo image="images/104.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Extensive customization options</head>]]></photo>
-	
-	<photo image="images/105.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Make your modifications in the right panel</head>]]></photo>
-		
-	<photo image="images/106.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Create your own image transitions and text effects</head>]]></photo>
-	
-	<photo image="images/107.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>You can choose the fitting type for your images in the gallery</head>]]></photo>
-	
-	<photo image="images/108.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></photo>
-	
-	<video media="video/green2.flv" image="video/green2.jpg" skin="assets/skins/videoSkin1.xml" backColor="0xff0000" backAlpha="1" autoplay="true"><![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></video>
-	
-	<photo image="images/109.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Put your own images and text in the "images" folder</head>]]></photo>
-	
-	<photo image="images/110.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Update the XML files from the same folder accordingly</head>]]></photo>
-	
-	<photo image="images/101.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></photo>
-	
-	<photo image="images/102.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></photo>
-	
-	<photo image="images/103.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></photo>
-	
-	<photo image="images/104.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Welcome to the new Polaroid Gallery</head>]]></photo>
+	<photo image="images/general-gallery/gg2.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
+
+	<photo image="images/general-gallery/gg3.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
+
+	<photo image="images/general-gallery/gg4.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
+
+	<photo image="images/general-gallery/gg5.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
+
+	<photo image="images/general-gallery/gg6.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
+
+	<photo image="images/general-gallery/gg7.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
+
+	<photo image="images/general-gallery/gg8.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
+
+	<photo image="images/general-gallery/gg9.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
+
+	<photo image="images/general-gallery/gg10.jpg" url = "http://www.flashxml.net" target="_blank">
+	<![CDATA[<head>Hello</head>]]></photo>
 	
 </images>
