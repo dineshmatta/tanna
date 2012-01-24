@@ -201,21 +201,17 @@
 	
 /* =SERVICES */
 	#services{
-		width: 858px;
+		width: 860px;
 		margin:0 auto;
 		position: relative;
 		background: url(../images/content.png) bottom repeat-x;
 		}
 	#servicescontent{
-		width: 500px;
-		margin: 0 10px -10px 30px;
-		text-align:justify;
-		font-family: "Monotype Corsiva", "Trebuchet MS", Arial, Helvetica, sans-serif;
-		
-		letter-spacing:0.04em;
-		color: #FFFFFF;
-		font-size:1.9em;
-		padding: 36px 0 20px 280px;
+		width: 860px;
+		height: 408px
+		margin:0 auto;  		
+		padding: 0px 0 437px 0px;
+		background: url(../images/contentabt.png) bottom repeat-x;
 		
 	}
 	/* sevices header */
@@ -232,7 +228,7 @@
 		position: absolute;
 		display: block;
 		height: 0px;
-		width: 862px;
+		width: 860px;
 		left:0;top:0;
 		font-size:0.1em;
 		background: url(../images/about_img1.jpg) left top no-repeat;
@@ -258,7 +254,7 @@
 		width: 287px;
 		height: 398px;
 		margin-bottom:52px;
-		background: url(../images/aboutus_img.jpg) left top no-repeat;
+		background: url(../images/.jpg) left top no-repeat;
 	}
 	/* list of services */
 	.serviceslist{
@@ -284,21 +280,20 @@
 	
 /* =SERVICES1 */
 	#services1{
-		width: 858px;
+		width: 860px;
 		margin:20px auto 0 auto;
 		position: relative;
 		background: url(../images/content.png) bottom repeat-x;
 		}
 	#servicescontent1{
-		width: 750px;
-		margin: 0 10px ;
+		width: 860px;
+		margin: 20px auto 0 auto ;
 		text-align:justify;
 		font-family: "Arial", "Trebuchet MS", Arial, Helvetica, sans-serif;
 		letter-spacing:0.04em;
 		color: #000000;
 		font-size:1.9em;
-		padding: 15px 0 20px 48px;
-		
+		padding: 0px 0 0px 0px;
 	}
 	/* sevices header */
 	#services1 h2{

@@ -1,9 +1,9 @@
 ﻿<images>
 	<photo image="images/mangeshi-city2/mc2_1.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Hello</head>]]></photo>
+	<![CDATA[<head></head>]]></photo>
 	
 	<photo image="images/mangeshi-city2/mc2_2.jpg" url = "http://www.flashxml.net" target="_blank">
-	<![CDATA[<head>Hello</head>]]></photo>
+	<![CDATA[<head></head>]]></photo>
 
 		
 </images>
