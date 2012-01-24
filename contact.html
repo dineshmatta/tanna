@@ -14,61 +14,128 @@ required.add('AntiSpam','NOT_EMPTY','Anti-Spam Question');
 <link rel="stylesheet" type="text/css" href="freecontactform.css" />
 </head>
 <body>
-<div id="container">
-<div id="containertop"></div><!-- Header -->
-<h1><a href="http://www.tannaassociates.co.in" title="Tanna Associates"><img src="images/TA.png" width="330" height="30" alt="Slide 1" /></a></h1>
-<hr />
-<div id="navigation_wrapper"><!-- Top Navigation -->
-<ul id="navigation">
-<li><a href="index.html" title="Home Sweet Home">Home</a></li>
-<li><a href="about.html" title="About Tanna Associates">About Us</a></li>
-<li><a href="projects.html" title="Upcoming and Ongoings Projects">Projects</a></li>
-<li><a href="gallery.html" title="Image Gallery">Gallery</a></li>
-<li class="current"><a href="contact.html" title="Project Contact Details">Contact Us</a></li></ul></div>
-<div id="main_image">
-<form name="freecontactform" method="post" action="freecontactformprocess.php" onsubmit="return validate.check(this)">
-<table width="400px" class="freecontactform">
-<tbody>
-<tr>
-<td colspan="2">
-<div class="freecontactformheader">Contact Us Form</div>
-<div class="freecontactformmessage">Fields marked with <span class="required_star"> * </span> are mandatory.</div></td></tr>
-<tr>
-<td valign="top"><label for="Full_Name" class="required">Full Name<span class="required_star"> * </span></label></td>
-<td valign="top"><input type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width: 230px" /></td></tr>
-<tr>
-<td valign="top"><label for="Email_Address" class="required">Email Address<span class="required_star"> * </span></label></td>
-<td valign="top"><input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width: 230px" /></td></tr>
-<tr>
-<td valign="top"><label for="Project" class="required">Project Intrested</label></td>
-<td valign="top"><select name="Project">
-<option value="Select">Select</option>
-<option value="Mangheshi City">Mangheshi City</option>
-<option value="Mangheshi Sahara">Mangheshi Sahara</option>
-<option value="Green Valley">Green Valley</option></select><!--			<input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:230px">--></td></tr>
-<tr>
-<td valign="top"><label for="Telephone_Number" class="not-required">Telephone Number</label></td>
-<td valign="top"><input type="text" name="Telephone_Number" id="Telephone_Number" maxlength="100" style="width: 230px" /></td></tr>
-<tr>
-<td valign="top"><label for="Your_Message" class="required">Your Message<span class="required_star"> * </span></label></td>
-<td valign="top"><textarea style="width: 230px; height: 160px" name="Your_Message" id="Your_Message" maxlength="2000"></textarea></td></tr>
-<tr>
-<td colspan="2" style="text-align: center">
-<div class="antispammessage">
-			To help prevent automated spam, please answer this question<br />
-<br />
-<div class="antispamquestion"><span class="required_star"> * </span>
-				 Using only numbers, what is 10 plus 15? &nbsp;<input type="text" name="AntiSpam" id="AntiSpam" maxlength="100" style="width: 30px" /></div></div></td></tr>
-<tr>
-<td colspan="2" style="text-align: center"><br />
-<br /><input type="submit" value=" Submit Form " /><br />
-<br /></td></tr></tbody></table></form></div><!--
-<div id="right" style="clear:both">--><!--pppppppppppppppppppppppppppp--><!--ppppppppppppppppppppppppppp--><!--</div>--><!-- The 3 Banner --><!--		
-<div id="banner_wrapper">--><!--		</div>--></div><!-- Footer -->
-<div id="footer_wrapper">
-<div id="footer">
-<div class="logo"><a href="http://www.standingcoin.com" target="_blank" title="Standing Coin Consultancy Services">Powered by Standing Coin Consultancy Services</a><span></span></div>
-<ul>
-<li><a href="http://www.tannaassociates.co.in" title="Powered By">Copyright 2012 - Tanna Associates</a><span></span></li></ul></div></div>
+	<div id="container">
+		<div id="containertop"></div>
+		<!-- Header -->
+		<h1><a href="http://www.tannaassociates.co.in" title="Tanna Associates">Tanna Associates</a></h1>
+		<hr />
+		<div id="navigation_wrapper">
+			<!-- Top Navigation -->
+			<ul id="navigation">
+				<li><a href="index.html" title="Home Sweet Home">Home</a></li>
+				<li><a href="about.html" title="About Tanna Associates">About</a></li>
+				<li><a href="projects.html" title="Upcoming and Ongoings Projects">Projects</a></li>
+				<li><a href="gallery.html" title="Image Gallery">Gallery</a></li>
+				<li><a href="contact.html" title="Project Contact Details">Contact</a></li>
+			</ul>
+		</div>
+
+	<div id = "main_image">
+		<div id="form_div" style="float:left">
+			<form name="freecontactform" method="post" action="freecontactformprocess.php" onsubmit="return validate.check(this)">
+			<table width="400px" class="freecontactform">
+			<tr>
+			 <td colspan="2">
+			
+			 <div class="freecontactformheader">Let Us Call You</div>
+			
+			 <div class="freecontactformmessage">Fields marked with <span class="required_star"> * </span> are mandatory.</div>
+			
+			 </td>
+			</tr>
+			<tr>
+			 <td valign="top">
+				<label for="Full_Name" class="required">Full Name<span class="required_star"> * </span></label>
+			 </td>
+			 <td valign="top">
+				<input type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:230px">
+			 </td>
+			</tr>
+			<tr>
+			 <td valign="top">
+				<label for="Email_Address" class="required">Email Address<span class="required_star"> * </span></label>
+			 </td>
+			 <td valign="top">
+				<input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:230px">
+			 </td>
+			</tr>
+
+			<tr>
+			 <td valign="top">
+				<label for="Project" class="required">Project Intrested</label>
+			 </td>
+			 <td valign="top">
+					<select name="Project">
+						<option value="Select">Select</option>
+						<option value="Green Valley">Green Valley</option>
+						<option value="Green Valley">Mangheshi Elite</option>
+						<option value="Mangheshi City">Mangheshi City II</option>
+						<option value="Green Valley">Mangheshi Vihar</option>
+						<option value="Green Valley">Mangheshi Srushti II</option>
+						<option value="Mangheshi Sahara">Appaji Dham</option>					
+					</select> 
+	<!--			<input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:230px">-->
+			 </td>
+			</tr>
+
+			<tr>
+			 <td valign="top">
+				<label for="Telephone_Number" class="not-required">Telephone Number</label>
+			 </td>
+			 <td valign="top">
+				<input type="text" name="Telephone_Number" id="Telephone_Number" maxlength="100" style="width:230px">
+			 </td>
+			</tr>
+			<tr>
+			 <td valign="top">
+				<label for="Your_Message" class="required">Your Message<span class="required_star"> * </span></label>
+			 </td>
+			 <td valign="top">
+				<textarea style="width:230px;height:160px" name="Your_Message" id="Your_Message" maxlength="2000"></textarea>
+			 </td>
+			</tr>
+			<tr>
+			 <td colspan="2" style="text-align:center" >
+				<div class="antispammessage">
+				To help prevent automated spam, please answer this question
+				<br /><br />
+					<div class="antispamquestion">
+					 <span class="required_star"> * </span>
+					 Using only numbers, what is 10 plus 15? &nbsp; 
+					 <input type="text" name="AntiSpam" id="AntiSpam" maxlength="100" style="width:30px">
+					</div>
+				</div>
+			 </td>
+			</tr>
+			<tr>
+			 <td colspan="2" style="text-align:center" >
+			 <br /><br />
+				<input type="submit" value=" Submit Form ">
+				<br /><br />
+			 </td>
+			</tr>
+			</table>
+			</form>
+		</div>
+
+<div id="right_div" style="float:left">
+	<img src="images/contentcon.png" height="578" alt="Slide 1">
+</div>
+
+	</div>
+
+		<!-- The 3 Banner -->
+<!--		<div id="banner_wrapper">-->
+<!--		</div>-->
+	</div>
+	<!-- Footer -->
+	<div id="footer_wrapper">
+		<div id="footer">
+			<div class="logo"><a href="http://www.standingcoin.com" target="_blank" title="Standing Coin Consultancy Services">Powered by Standing Coin Consultancy Services</a><span></span></div>
+			<ul>
+			<li><a href="http://www.tannaassociates.co.in" title="Powered By">Copyright 2012 - Tanna Associates</a><span></span>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>
