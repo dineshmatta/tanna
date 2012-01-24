@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Home | Tanna Associates</title>
+<link href="stylesheets/common.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="stylesheets/svwp_style.css" type="text/css" media="screen" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){			
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 3000,
+				pause: 2500,
+				hoverPause: false,
+				animationStart: function(current){
+					$('.caption').animate({
+						bottom:-35
+					},100);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationStart on slide: ', current);
+					};
+				},
+				animationComplete: function(current){
+					$('.caption').animate({
+						bottom:0
+					},200);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationComplete on slide: ', current);
+					};
+				},
+				slidesLoaded: function() {
+					$('.caption').animate({
+						bottom:0
+					},200);
+					$('.pagination').hide();
+				}
+			});
+		});
+	</script>
+
+<!--<script>
+	$(window).bind("load", function() {
+		$("div#gallery").slideViewerPro({
+			thumbs: 3,
+			autoslide: true,
+			asTimer: 2500,
+			typo: true,
+			galBorderWidth: 0,
+			thumbsBorderOpacity: 0,
+			buttonsTextColor: "#707070",
+			buttonsWidth: 10,
+			thumbsActiveBorderOpacity: 0.1,
+			thumbsActiveBorderColor: "aqua",
+			shuffle: true
+
+
+		});
+	});
+</script>-->
+
+</head>
+<body>
+	<div id="container">
+		<div id="containertop"></div>
+		<!-- Header -->
+		<h1><a href="http://www.tannaassociates.co.in" title="Tanna Associates">Tanna Associates</a></h1>
+		<hr />
+		<div id="navigation_wrapper">
+			<!-- Top Navigation -->
+			<ul id="navigation">
+				<li class="current	"><a href="index.html" title="Home Sweet Home">Home</a></li>
+				<li><a href="about.html" title="About Tanna Associates">About Us</a></li>
+				<li><a href="projects.html" title="Upcoming and Ongoings Projects">Projects</a></li>
+				<li><a href="gallery.html" title="Image Gallery">Gallery</a></li>
+				<li><a href="contact.html" title="Project Contact Details">Contact Us</a></li>			</ul>
+		<div id = "navigation1">
+		</div>
+		</div>
+
+		<!-- Main Image -->
+		<div id="slides" class="main_gallery">
+			<div class="slides_container">
+					<div class="slide">
+						<img src="images/1.jpg" width="860" height="408" alt="Slide 1">
+					</div>
+					<div class="slide">
+						<img src="images/2.jpg" width="860" height="408" alt="Slide 1">
+					</div>
+					<div class="slide">
+						<img src="images/3.jpg" width="860" height="408" alt="Slide 1">
+					</div>
+					<div class="slide">
+						<img src="images/4.jpg" width="860" height="408" alt="Slide 1">
+					</div>
+					<div class="slide">
+						<img src="images/5.jpg" width="860" height="408" alt="Slide 1">
+					</div>
+					<div class="slide">
+						<img src="images/6.jpg" width="860" height="408" alt="Slide 1">
+					</div>
+			</div>
+		</div>
+		<!--<div id="gallery">
+					<ul>
+						<li><img src="images/main_image.jpg" width="860" height="408" alt="Main Image" /></li>
+						<li><img src="images/main_image.jpg" width="860" height="408" alt="Main Image" /></li>
+						<li><img src="images/main_image.jpg" width="860" height="408" alt="Main Image" /></li>
+						<li><img src="images/main_image.jpg" width="860" height="408" alt="Main Image" /></li>
+						<!--<div id="frame_image_top"></div><div id="frame_image_bottom"></div>
+						<hr />
+					</ul>
+		</div>-->
+		<!-- The 3 Banner -->
+		<div id="banner_wrapper">
+			<div class="banner">
+				<h2><a href="green-valley.html">Green Valley</h2>
+				<div class="image_wrapper"><a href="green-valley.html"><img src="images/t1.jpg" width="228" height="202" alt="image: Mangeshi City" /></div>
+			</div>
+			<div class="banner">
+				<h2><a href="mangeshi-srushti.html">Mangeshi Srushti II</h2>
+				<div class="image_wrapper"><a href="mangeshi-srushti.html"><img src="images/t5.jpg" width="228" height="202" alt="image: Mangeshi Shrishti" /></div>
+			</div>
+			<div class="banner banner_last">
+				<h2><a href="mangeshi-vihar.html">Mangeshi Vihar</h2>
+				<div class="image_wrapper"><a href="mangeshi-vihar.html"><img src="images/t4.jpg" width="228" height="202" alt="image:Green Valley" /></div>
+			</div>
+			<hr />
+		</div>
+	</div>
+	<!-- Footer -->
+	<div id="footer_wrapper">
+		<div id="footer">
+			<div class="logo"><a font-family: 'Copperplate Gothic Light' href="http://www.standingcoin.com" target="_blank" title="Standing Coin Consultancy Services">Website Designed and Developed by SCCS</a><span></span></div>
+			<ul>
+			<li><a href="http://www.tannaassociates.co.in" title="Tanna Associates">Copyright 2012 - Tanna Associates</a><span></span>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+[21-Jan-2012 21:58:24] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[21-Jan-2012 21:58:24] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jan-2012 21:58:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/wesearch/wesearchwell/public/standingcoin.com/clients/tannaassociates/freecontactformprocess.php:2) in /home/wesearch/wesearchwell/public/standingcoin.com/clients/tannaassociates/freecontactformprocess.php on line 66
+[21-Jan-2012 23:14:34] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[21-Jan-2012 23:14:34] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jan-2012 23:19:50] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[21-Jan-2012 23:19:50] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[21-Jan-2012 23:29:17] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[21-Jan-2012 23:29:17] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[22-Jan-2012 02:32:31] PHP Warning:  Module 'SQLite' already loaded in Unknown on line 0
+[22-Jan-2012 02:32:31] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
