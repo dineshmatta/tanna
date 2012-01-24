@@ -371,6 +371,7 @@
 		padding-bottom:25px;
 		margin: 10px auto 20px auto ;
 		font-size: 1.2em;
+		overflow: hidden;
 		background: url(../images/footer_left1.png) 0 0 no-repeat;
 	}
 	#footer{
